@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="assets/main.css">
+
+     </head>
+     <body>
+          <div class="container-fluid p-0 d-flex">
+               <div class="left-container w-50 p-5">
+                    <div
+                         class="logo-header py-4 px-2 d-flex align-items-center justify-content-between mb-2">
+                         <div class="logo-container">
+                              <!-- <img src="swiggy-logo.svg" class="logo"> -->
+                              <svg xmlns:xlink="http://www.w3.org/1999/xlink"
+                                   xmlns="http://www.w3.org/2000/svg"
+                                   width="200" class="_1envo"
+                                   viewBox="0 0 200 200" height="200"><path
+                                        d="M19.9253444,58.766315 C19.8876048,58.7384908 19.8458927,58.7037105 19.8021942,58.6654521 C19.094081,57.7879944 14.7152991,52.3026415 10.2535896,45.2670801 C8.91532497,43.0252402 8.046322,41.2767839 8.21317057,40.8246398 C8.64965835,39.6490651 16.4279798,39.0056292 18.8234486,40.0713975 C19.5519214,40.3948545 19.5335482,40.8231492 19.5335482,41.0725738 C19.5335482,42.1487762 19.4804148,45.0365363 19.4804148,45.0365363 C19.4809114,45.6332671 19.9660634,46.1172104 20.5634408,46.1162167 C21.1618115,46.1162167 21.6449771,45.630286 21.6429908,45.0320645 L21.6305765,37.8365137 L21.6285902,37.8365137 C21.6285902,37.2119586 20.9467953,37.055944 20.8186794,37.0315978 C19.5683083,37.0256354 17.0293299,37.0171888 14.3031434,37.0171888 C8.28765654,37.0171888 6.94343308,37.264129 5.92148558,36.5958501 C3.707266,35.1479951 0.0867513255,25.3896318 0.0023338937,19.8993102 C-0.117836803,12.1537335 4.47149205,5.44808831 10.9338947,2.12557426 C13.6337628,0.766160708 16.6832184,0 19.9039917,0 C30.132405,0 38.555775,7.72023676 39.6765405,17.6529986 C39.6775337,17.6614452 39.6775337,17.6708856 39.67952,17.6793322 C39.8851013,20.0806647 26.6504342,20.5909417 24.0325007,19.8923542 C23.6312696,19.785032 23.528479,19.3741274 23.528479,19.1972447 C23.5254995,17.371278 23.5130852,12.2327345 23.5130852,12.2327345 C23.5110989,11.6355068 23.025947,11.1510667 22.4285695,11.1525572 L22.4275764,11.1525572 C21.831192,11.153551 21.3470332,11.6389848 21.3470332,12.2372063 L21.3683859,21.7029181 C21.3867591,22.2991521 21.8873048,22.4601353 22.024359,22.4869659 C23.5130852,22.4874627 26.9945594,22.4839847 30.2371819,22.4839847 C34.6199364,22.4839847 36.460733,22.9917773 37.6857789,23.9243867 C38.5001588,24.5454638 38.8154827,25.7344538 38.5398847,27.2796936 C36.0823442,41.0258688 20.5103075,58.0562997 19.9253444,58.766315 Z M62.158293,26.6840558 C66.0871796,28.3679201 68.5213811,30.23612 68.5213811,34.3367194 C68.5213811,38.5257602 65.3482788,41.2316689 60.4386603,41.2316689 C56.4601164,41.2316689 53.2666546,39.4295516 51.6761309,36.2864046 L51.418906,35.7796057 L56.0966249,33.0692253 L56.4030105,33.5700618 C57.4562421,35.2916875 58.633617,36.0255522 60.3418285,36.0255522 C61.8141679,36.0255522 62.8033415,35.3731729 62.8033415,34.4013114 C62.8033415,33.3246122 62.0872831,32.9211605 59.8740566,31.9522802 L58.7493185,31.4698275 C55.7475339,30.1904087 52.9667244,28.4126376 52.9667244,24.1068343 C52.9667244,20.2372755 55.9327557,17.5348449 60.1799457,17.5348449 C63.3977396,17.5348449 65.6030208,18.7804771 67.1210449,21.4535929 L67.4026018,21.9499577 L62.8703789,24.8625609 L62.5580344,24.3035915 C61.8002638,22.9481529 61.0866882,22.6763695 60.1799457,22.6763695 C59.2319876,22.6763695 58.6212026,23.199068 58.6212026,24.0099463 C58.6212026,24.9415619 59.0710979,25.3504791 61.0320652,26.2001125 L62.158293,26.6840558 Z M95.2686968,27.476898 L98.5709081,18.2690574 L104.238794,18.2690574 L95.8387627,41.611619 L94.5799498,41.611619 L89.484613,30.6796684 C89.2477476,30.1788318 89.0034336,29.556761 88.7928866,28.9868606 C88.5773739,29.5577547 88.327101,30.1813161 88.089739,30.6821527 L82.7952763,41.611619 L81.5449052,41.611619 L73.0103029,18.2690574 L79.065019,18.2690574 L82.4034802,27.476898 C82.61651,28.0641885 82.8350022,28.7801662 83.0261829,29.4444702 C83.2531168,28.7588011 83.5257354,28.0184772 83.8107684,27.4217464 L88.1955091,18.0767719 L89.4086373,18.0767719 L93.8614085,27.4227401 C94.1454483,28.0189741 94.4190601,28.7597949 94.6450009,29.445464 C94.8371747,28.7801662 95.0571566,28.0641885 95.2686968,27.476898 Z M110.84853,40.9414023 L110.84853,17.7921198 L116.569052,17.7921198 L116.569052,40.9414023 L110.84853,40.9414023 Z M135.325265,33.163629 L135.325265,27.9903052 L145.94746,27.9903052 L145.94746,38.3652739 L145.727975,38.5461315 C144.512861,39.5438298 141.291094,41.2316689 136.926713,41.2316689 C129.564023,41.2316689 124.423995,36.3529841 124.423995,29.3676057 C124.423995,22.5114114 129.383767,17.5348449 136.217607,17.5348449 C139.975672,17.5348449 142.730163,18.594154 144.637004,20.7738862 L145.009434,21.1996966 L141.110342,25.059815 L140.686765,24.6235704 C139.59778,23.500663 138.469566,22.8050567 136.217607,22.8050567 C132.717263,22.8050567 130.272137,25.5035125 130.272137,29.3676057 C130.272137,33.3926822 132.883118,35.99425 136.926713,35.99425 C138.267957,35.99425 139.664321,35.7632093 140.614762,35.394041 L140.614762,33.163629 L135.325265,33.163629 Z M164.314658,33.163629 L164.314658,27.9903052 L174.936853,27.9903052 L174.936853,38.3652739 L174.717368,38.5461315 C173.501261,39.5438298 170.280487,41.2316689 165.917099,41.2316689 C158.554409,41.2316689 153.413388,36.3529841 153.413388,29.3676057 C153.413388,22.5114114 158.374153,17.5348449 165.206006,17.5348449 C168.966058,17.5348449 171.720549,18.594154 173.626397,20.7738862 L173.99982,21.1996966 L170.101721,25.059815 L169.677151,24.6235704 C168.587669,23.500663 167.458959,22.8050567 165.206006,22.8050567 C161.706656,22.8050567 159.26153,25.5035125 159.26153,29.3676057 C159.26153,33.3926822 161.873504,35.99425 165.917099,35.99425 C167.258343,35.99425 168.653714,35.7632093 169.604155,35.394041 L169.604155,33.163629 L164.314658,33.163629 Z M195.897503,17.7922192 L201.87674,17.7922192 L193.669876,33.1964218 L193.669876,40.9415017 L187.918566,40.9415017 L187.918566,33.5253443 L179.1759,17.7922192 L185.555871,17.7922192 L189.596487,25.1730995 C190.030988,25.9760279 190.484856,27.0373245 190.827988,27.8988826 C191.155726,27.0442805 191.589235,25.9924244 192.020757,25.1800555 L195.897503,17.7922192 Z"
+                                        fill="#FC8019"></path></svg>
+                         </div>
+                         <div
+                              class="buttons d-flex align-items-center gap-5 mt-3">
+                              <a href="#" class="login-link"><p
+                                        class="mt-3 login">Login</p></a>
+                              <button class="btn btn-dark fw-bold px-4">Sign up</button>
+                         </div>
+                    </div>
+
+                    <div class="left-container-body mt-4">
+                         <h1 class="display-heading" id="display-heading"></h1>
+                         <p class="text-muted fs-4">Order food from favourite
+                              restaurants near you.</p>
+
+                         <div class="input-group">
+                              <input type="text"
+                                   class="search-input form-control py-3 fs-5"
+                                   placeholder="Enter your delivery location"
+                                   aria-label="Recipient's username"
+                                   aria-describedby="button-addon2">
+
+                              <button class="btn text-white fw-bold"
+                                   type="button" id="button-addon2"
+                                   style="background-color:rgb(252,128,25);">FIND
+                                   FOOD</button>
+                              <div
+                                   class="location-div d-flex align-items-center gap-1 ">
+                                   <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="19" height="19"
+                                        fill="currentColor"
+                                        class="bi bi-crosshair mb-3"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                             d="M8.5.5a.5.5 0 0 0-1 0v.518A7 7 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7 7 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7 7 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7 7 0 0 0 8.5 1.018zm-6.48 7A6 6 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6 6 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6 6 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6 6 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1zM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                                   </svg>
+                                   <a href="#" style="text-decoration: none;"><p
+                                             class="text-muted">Locate me</p></a>
+                              </div>
+                         </div>
+                         <div class="cities city mt-4">
+                              <p class="city-heading">POPULAR CITIES IN INDIA</p>
+                              <div class="city-list position-absolute">
+                                   <ul class="fs-5 d-flex"
+                                        style="list-style-type: none;">
+                                        <!-- <ul class="fs-5 d-flex" style="list-style-type: none;"> -->
+                                        <a href="#"><li class="dark">Ahmedabad</li></a>
+                                        <a href="#"><li>Bangalore</li></a>
+                                        <a href="#"><li class="dark">Chennai</li></a>
+                                        <a href="#"><li>Delhi</li></a>
+                                        <a href="#"><li class="dark">Gurgaon</li></a>
+                                        <a href="#"><li>Hyderabad</li></a>
+                                        <a href="#"><li class="dark">Kolkata</li></a>
+                                        <a href="#"><li>Mumbai</li></a>
+                                        <a href="#"><li class="dark">Pune</li></a>
+                                        <a href="#"><li>& more</li></a>
+                                        <!-- </ul> -->
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="right-container w-50">
+                    <img
+                         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq"
+                         class="bg-img">
+               </div>
+          </div>
+          <div class="features-page d-flex justify-content-around">
+               <div class="item-one" style="text-align: center;">
+                    <img
+                         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+                         class="image-one">
+                    <div class="item-content mt-5">
+                         <h3 class="text-white">No Minimum order</h3>
+                         <p class="text-white item-text">Order in for yourself
+                              or for the group, with no restrictions on order
+                              value</p>
+                    </div>
+               </div>
+               <div class="item-one" style="text-align: center;">
+                    <img
+                         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+                         class="image-one">
+                    <div class="item-content mt-5">
+                         <h3 class="text-white">Live Order Tracking</h3>
+                         <p class="text-white item-text">Know where your order
+                              is at all times, from the restaurant to your
+                              doorstep</p>
+                    </div>
+               </div>
+               <div class="item-one" style="text-align: center;">
+                    <img
+                         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+                         class="image-one">
+                    <div class="item-content mt-5">
+                         <h3 class="text-white">Lightning-Fast Delivery
+                         </h3>
+                         <p class="text-white item-text">Experience Swiggy's
+                              superfast delivery for food delivered fresh & on
+                              time</p>
+                    </div>
+               </div>
+          </div>
+          <div
+               class="app-download-link-container d-flex justify-content-around align-items-center">
+               <div class="mobile-app-section-left p-5">
+                    <h1 class="app-section-heading display-5 fw-bold">Restaurants
+                         in
+                         your pocket</h1>
+                    <p class="app-section-desc text-muted mt-4">Order from your
+                         favourite restaurants & track on the go, with the
+                         all-new
+                         Swiggy app.</p>
+                    <div class="app-download-link-section mt-5">
+                         <img
+                              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp"
+                              class="app-download-img mt-2">
+                         <img
+                              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty"
+                              class="app-download-img mt-2">
+                    </div>
+               </div>
+               <div class="mobile-app-section-right d-flex">
+                    <img
+                         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n"
+                         class="mobile-img">
+                    <div class="mt-5">
+                         <img
+                              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn"
+                              class="mobile-img">
+                    </div>
+               </div>
+          </div>
+          <div class="footer-dark position-relative">
+               <div class="first-page p-5 d-flex gap-4 justify-content-around">
+                    <div class="list-one">
+                         <h5 class="fs-6" style="color: rgb(197, 196, 196);">COMPANY</h5>
+
+                         <ul class="footer-links fs-6 mt-4"
+                              style="list-style-type: none; padding: 0; margin: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">About
+                                        us</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Team</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Careers</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Swiggy
+                                        Blog</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Bug
+                                        Bounty</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Swiggy
+                                        One</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Swiggy
+                                        Corporate</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Swiggy
+                                        Instamart</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Swiggy
+                                        Genie</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Swiggy
+                                        HDFC Bank Credit Card</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">ESG</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="list-two">
+                         <h5 class="fs-6" style="color: rgb(197, 196, 196);">CONTACT</h5>
+
+                         <ul class="footer-links mt-4"
+                              style="list-style-type: none; padding: 0; margin: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Help
+                                        & Support</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Partner
+                                        with us</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ride
+                                        with us</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="list-three">
+                         <h5 class="fs-6" style="color: rgb(197, 196, 196);">LEGAL</h5>
+                         <ul class="footer-links mt-4"
+                              style="list-style-type: none; padding: 0; margin: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Terms
+                                        & Conditions</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Refund
+                                        & Cancellation</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Privacy
+                                        Policy</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Cookie
+                                        Policy</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Offer
+                                        Terms</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Phishing
+                                        & Fraud</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Corporate
+                                        – Swiggy Money Codes Terms and
+                                        Conditions</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Corporate
+                                        - Swiggy Discount Voucher Terms and
+                                        Conditions</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="list-four">
+                         <img
+                              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"
+                              class="download-icon-img">
+                         <img
+                              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"
+                              class="mt-4 download-icon-img">
+                    </div>
+
+               </div>
+               <div class="underline"></div>
+
+               <div class="second-page p-4 d-flex justify-content-around">
+                    <div class="page-two-list-one">
+                         <h5 class="fs-6 mb-4"
+                              style="color: rgb(197, 196, 196);">WE DELIVER TO</h5>
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Abohar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Adilabad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Adoni</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Agra</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ahmedabad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ahmednagar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Aizawl</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ajmer</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Akola</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Alappuzha</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Aligarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Alipurduar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Allahabad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Almora</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Alwar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ambajogai</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ambala</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ambikapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ambur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Amravati</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Amreli</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Amritsar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Anand</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="page-two-list-two mt-5">
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Deoghar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Deoria-City</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dewas</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dhanbad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dhar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dharamshala</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dharapuram</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dharmapuri</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dharwad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dholpur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dhule</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dibrugarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Digboi</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dimapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dindigul</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Diu</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Doddaballapura</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Duliajan</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dumka</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Dungarpur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Durgapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Eluru</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Erode</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="page-two-list-two mt-5">
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kishanganj</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kishangarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kochi</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kohima</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kokrajhar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kolar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kolhapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kolkata</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kollam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Koppal</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Korba</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kota</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kotdwar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kothagudem</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kottarakkara</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kottayam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kovilpatti</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kozhikode</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Krishnagiri</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Krishnanagar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kullu</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kumbakonam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Kurnool</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="page-two-list-two mt-5">
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Pusad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Puttur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rae-Bareli</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Raghunathpur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Raichur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Raiganj</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Raigarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Raipur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajahmundry</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajampet</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajapalayam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajgarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajkot</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajnandgaon</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rajsamand</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ramagundam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ramanagara</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ramanathapuram</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ramgarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rampur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ranaghat-Wb</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Ranchi</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Rangia</a></li>
+                         </ul>
+
+                    </div>
+               </div>
+               <div class="underline mt-2 mb-2"></div>
+               <div class="third-page p-4 d-flex justify-content-around">
+                    <div class="page-three-list-one">
+                         <h5 class="fs-6 mb-4"
+                              style="color: rgb(197, 196, 196);">BEST PLACES TO
+                              EAT ACROSS CITIES</h5>
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Abohar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Adilabad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Adoni</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Agra</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ahmedabad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ahmednagar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Aizawl</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ajmer</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Akola</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Alappuzha</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Aligarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Alipurduar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Allahabad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Almora</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Alwar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ambajogai</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ambala</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ambikapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ambur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Amravati</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Amreli</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="page-three-list-two mt-5">
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Deoghar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Deoria-City</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dewas</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dhanbad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dhar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dharamshala</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dharapuram</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dharmapuri</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dharwad</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dholpur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dhule</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dibrugarh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Digboi</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dimapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dindigul</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Diu</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Doddaballapura</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Duliajan</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dumka</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Dungarpur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Durgapur</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="page-three-list-two mt-5">
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kochi</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kohima</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kokrajhar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kolar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kochi</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kolhapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kolkata</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kollam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Koppal</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Korba</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kota</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kotdwar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kothagudem</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kottarakkara</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kottayam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kovilpatti</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kozhikode</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Krishnagiri</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Krishnanagar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kullu</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Kumbakonam</a></li>
+                         </ul>
+
+                    </div>
+                    <div class="page-three-list-two mt-5">
+                         <ul style="list-style-type: none; padding: 0;">
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rangia</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rangpo</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ranibennur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Raniganj</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ratlam</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ratnagiri</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ravulapalem</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rayachoty</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rayagada</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rewa</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rewari</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rishikesh</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Roha</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rohtak</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Roorkee</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Ropar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Roorkee</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rourkela</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Rudrapur</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Sagar</a></li>
+                              <li><a href="#"
+                                        style="text-decoration: none; color: white;">Best
+                                        Restaurants In Saharanpur</a></li>
+                         </ul>
+
+                    </div>
+               </div>
+               <!-- ------------------------one page will be appear here in the future --------------------- -->
+               <div class="underline mt-2 mb-4"></div>
+               <div class="footer-section p-4">
+                    <h5 class="fs-6 mb-3" style="color: gray;">EXPLORE EVERY RESTAURANTS NEAR ME</h5>
+                    <ul class="d-flex justify-content-between footer-list">
+                         <li style="list-style: none;"><a href="#" style="color: white;">Explore Restaurants Near Me</a></li>
+                         <li class="footer-list-left-move" style="list-style: none;"><a href="#"style="color: white;">Explore Top Rated Restaurants Near Me</a></li>
+                         
+                    </ul>
+               </div>
+               <div class="underline mb-2 mt-2"></div>
+               
+          </div>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script
+               src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+          <script
+               src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script src="app.js"></script>
+     </body>
+</html>
